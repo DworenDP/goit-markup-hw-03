@@ -36,7 +36,7 @@
 
     <body>
         <!-- site header -->
-        <header>
+        <header class="header">
             <div class="container">
                 <nav>
                     <!-- company logo -->
@@ -98,52 +98,61 @@
         <main>
             <!-- Hero section -->
             <section class="hero">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button
-                    type="button"
-                    class="hero-btn"
-                >
-                    Замовити послугу
-                </button>
+                <div class="hero-wrapper">
+                    <h1 class="hero-title">
+                        Ефективні рішення для вашого бізнесу
+                    </h1>
+                    <button
+                        type="button"
+                        class="hero-btn"
+                    >
+                        Замовити послугу
+                    </button>
+                </div>
+                <!-- <div class="main-btn">
+                    
+                </div> -->
             </section>
 
             <!-- advertising text -->
-            <section class="adv-text">
-                <h2 class="visually-hidden">Наші переваги</h2>
-                <ul class="adv-list">
-                    <li>
-                        <h3 class="adv-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="adv-item">
-                            Ідейні міркування, і навіть початок повсякденної
-                            роботи з формування позиції.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="adv-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="adv-item">
-                            Завдання організації, особливо рамки і місце
-                            навчання кадрів тягне у себе.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="adv-title">ПЛАНУВАННЯ</h3>
-                        <p class="adv-item">
-                            Так само консультація з широким активом значною
-                            мірою зумовлює.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="adv-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="adv-item">
-                            Значимість цих проблем настільки очевидна, що
-                            реалізація планових завдань.
-                        </p>
-                    </li>
-                </ul>
+            <section class="adv-text container">
+                <div class="adv-box">
+                    <h2 class="visually-hidden">Наші переваги</h2>
+                    <ul class="adv-list">
+                        <li>
+                            <h3 class="adv-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="adv-item">
+                                Ідейні міркування, і навіть початок повсякденної
+                                роботи з формування позиції.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="adv-title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="adv-item">
+                                Завдання організації, особливо рамки і місце
+                                навчання кадрів тягне у себе.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="adv-title">ПЛАНУВАННЯ</h3>
+                            <p class="adv-item">
+                                Так само консультація з широким активом значною
+                                мірою зумовлює.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="adv-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="adv-item">
+                                Значимість цих проблем настільки очевидна, що
+                                реалізація планових завдань.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <!-- advertising photo -->
-            <section class="adv-photo">
+            <section class="adv-photo container">
                 <h2 class="photo-title">Чим ми займаємося</h2>
                 <ul class="photo-list">
                     <li class="photo-item">
@@ -174,7 +183,7 @@
             </section>
 
             <!-- photos of team members -->
-            <section class="team-section">
+            <section class="team-section container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-photo">
@@ -242,7 +251,7 @@
         </main>
 
         <!-- footer, address and contacts  -->
-        <footer class="footer">
+        <footer class="footer container">
             <a
                 href="./index.html"
                 class="logo link"

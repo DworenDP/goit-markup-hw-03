@@ -16,6 +16,10 @@
     --portfolio-button-color: #f5f4fa;
 }
 
+* {
+    outline: 1px solid red;
+}
+
 h1,
 h2,
 h3,
@@ -59,6 +63,12 @@ ul {
     list-style: none;
 }
 
+/* Header  */
+
+.header {
+    padding-top: 24px;
+}
+
 /* logo */
 
 .logo {
@@ -98,6 +108,22 @@ ul {
 }
 
 /* hero */
+
+.hero-wrapper {
+    padding: 200px 452px 280px;
+    /* padding-top: 200px;
+    padding-right: 0;
+    padding-bottom: 280px;
+    padding-left: 452px; */
+}
+
+/* .main-btn {
+    display: inline-block;
+    padding: 30px 0 200px 0;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
 .hero {
     background-color: var(--second-background-color);
 }
@@ -110,6 +136,7 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--second-logo-color);
+    max-width: 696px;
 }
 
 .hero-btn {
@@ -120,6 +147,7 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--second-logo-color);
+    margin-top: 30px;
 }
 
 .hero-btn:hover,
@@ -128,7 +156,11 @@ ul {
     background-color: #188ce8;
 }
 
-/* adversting text  */
+/* advertising text  */
+
+.adv-box {
+    padding: 94px 0 47px 0;
+}
 
 .visually-hidden {
     position: absolute;
