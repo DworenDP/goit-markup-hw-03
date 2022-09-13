@@ -111,6 +111,10 @@ body {
 
 /* site navigation */
 
+nav a.active {
+    color: var(--accent-color);
+}
+
 .main-nav {
     display: flex;
     align-items: center;
